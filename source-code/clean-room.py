@@ -1,5 +1,17 @@
 # This is a Python comment.  If I place the hashtag at the beginning of the line, the Python interpreter will ignore it!
 
+def sort_clothes(items_array):
+    # This is the main part of our program.  We are 'looping' through each item in our items_in_room array and logically deciding where to put them
+    for item in items_array:
+        
+        # If the value of the item's 'type' property is clothing, we want to put that item in the dresser
+        if item["type"] is "clothing":
+            print("I put the " + item["description"] + " in my dresser!")
+        
+        # If the value of th item's 'type' property is not clothing, this means that it must be trash so we can throw it in the trash
+        else:
+            print("I threw the " + item["description"] + " in the trash can!")
+
 # This is a simple string variable that stores the name of our program
 name_of_this_program = "clean-room.py"
 
@@ -29,14 +41,5 @@ items_in_room = [item1, item2, item3]
 # notice the + sign.  This combines two strings together!
 print ("Program: " + name_of_this_program)
 print("----------------------------------------")
-
-# This is the main part of our program.  We are 'looping' through each item in our items_in_room array and logically deciding where to put them
-for item in items_in_room:
+sort_clothes(items_in_room)
     
-    # If the value of the item's 'type' property is clothing, we want to put that item in the dresser
-    if item["type"] is "clothing":
-        print("I put the " + item["description"] + " in my dresser!")
-    
-    # If the value of th item's 'type' property is not clothing, this means that it must be trash so we can throw it in the trash
-    else:
-        print("I threw the " + item["description"] + " in the trash can!")
