@@ -1,5 +1,6 @@
 # This is a Python comment.  If I place the hashtag at the beginning of the line, the Python interpreter will ignore it!
 
+# This is a function.  It takes an array as an argument.
 def sort_clothes(items_array):
     # This is the main part of our program.  We are 'looping' through each item in our items_in_room array and logically deciding where to put them
     for item in items_array:
