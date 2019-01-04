@@ -1,4 +1,3 @@
-# Add comment
 my_array = [534, 837, 173, 637]
 
 for j in my_array:
