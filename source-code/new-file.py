@@ -1,1 +1,0 @@
-print("my first program")
