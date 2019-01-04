@@ -14,7 +14,7 @@ def sort_clothes(items_array):
             print("I threw the " + item["description"] + " in the trash can!")
 
 # This is a simple string variable that stores the name of our program
-name_of_this_program = "clean-room.py"
+name_of_this_program = "clean room program"
 
 
 # Item 1, 2, and 3 are all called 'objects'.  Each object has a type property and a description property
@@ -33,9 +33,14 @@ item3 = {
     "description": "orange peel"
 }
 
+item4 = {
+    "type": "trash",
+    "description": "gum wrapper"
+}
+
 # This is an array.  An array stores a list of variables, objects, other arrays, etc.
 # We need to put the items in this array so we can loop through them and sort the items in the room!
-items_in_room = [item1, item2, item3]
+items_in_room = [item1, item2, item3, item4]
 
 
 # A simple Python print statement that will print out the name of the program
