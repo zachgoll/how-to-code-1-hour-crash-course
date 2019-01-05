@@ -1,1 +1,0 @@
-This directory called `source-code` has all of the files that we use throughout the tutorial.  Feel free to use these files as a reference while going through the tutorial!

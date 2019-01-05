@@ -5,6 +5,9 @@
 # Any package over 40 pounds goes to Zone D
 # Once in Zone, packages sorted by shipping carrier where DHL is vehicle 1, Fedex is vehicle 2, and UPS is vehicle 3
 
+# Here we are defining one large and inefficient function.  This is NOT the correct
+# way to write code.  Refer to the functions-correct.py file for the correct way 
+# to write the code below.
 def sort_packages():
     
     item1 = {

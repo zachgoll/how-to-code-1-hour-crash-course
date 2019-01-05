@@ -2,6 +2,7 @@
 
 # This is a function.  It takes an array as an argument.
 def sort_clothes(items_array):
+    
     # This is the main part of our program.  We are 'looping' through each item in our items_in_room array and logically deciding where to put them
     for item in items_array:
         
@@ -47,5 +48,8 @@ items_in_room = [item1, item2, item3, item4]
 # notice the + sign.  This combines two strings together!
 print ("Program: " + name_of_this_program)
 print("----------------------------------------")
+
+# Here, we are "calling" our function and passing in our items_in_room array
+# as an "argument"
 sort_clothes(items_in_room)
     
